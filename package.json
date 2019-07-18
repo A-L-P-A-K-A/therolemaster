@@ -1,0 +1,22 @@
+{
+    "name": "my-bot",
+    "version": "1.0.0",
+    "description": "A bot that automatically assigns roles based on message reactions.",
+    "main": "role.js",
+    "scripts": {
+    "start": "node role.js"
+  },
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "author": "",
+    "license": "",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "dependencies": {
+        "discord.js": "^11.4.2"
+    }
+}
