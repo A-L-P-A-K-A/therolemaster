@@ -184,4 +184,4 @@ process.on('unhandledRejection', err => {
 	console.error(`Unhandled Rejection: \n ${msg}`);
 });
 
-client.login(process.env.BOT_TOKEN)
+client.login(process.env.BOT_TOKEN);
