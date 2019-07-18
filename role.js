@@ -1,5 +1,5 @@
 const yourID = "395397757717708800"; //Instructions on how to get this: https://redd.it/40zgse
-const setupCMD = "!rolesetup";
+const setupCMD = "!createrolemessage";
 const initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
 const embedMessage = `
 React to the emoji that matches the role you wish to receive.
