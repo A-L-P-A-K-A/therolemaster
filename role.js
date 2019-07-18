@@ -1,3 +1,6 @@
+const { Client, RichEmbed, Emoji, MessageReaction } = require('discord.js');
+const client = new Client({ disableEveryone: true });
+
 const yourID = "395397757717708800"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "!createrolemessage";
 const initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
@@ -22,7 +25,6 @@ const embedThumbnailLink = "https://i.imgur.com/6LDYDgQ.png"; // The link for th
 // Import constructords and login the client
 const { Client, RichEmbed, Emoji, MessageReaction } = require('discord.js');
 const client = new Client({ disableEveryone: true });
-const Discord = require('discord.js');
 
 // If there isn't a reaction for every role, scold the user!
 if (roles.length !== reactions.length) throw "Roles list and reactions list are not the same length!";
