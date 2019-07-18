@@ -1,7 +1,3 @@
-require('dotenv').config()
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
 // Configuration & Settings
 const yourID = "395397757717708800"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "!rolesetup";
