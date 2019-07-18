@@ -1,5 +1,5 @@
+const client = new Client({ disableEveryone: false });
 const { Client, RichEmbed, Emoji, MessageReaction } = require('discord.js');
-const client = new Client({ disableEveryone: true });
 
 const yourID = "395397757717708800"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "!createrolemessage";
