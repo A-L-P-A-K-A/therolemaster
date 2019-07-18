@@ -22,10 +22,6 @@ const embedThumbnailLink = "https://i.imgur.com/6LDYDgQ.png"; // The link for th
  * https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
  */
 
-// Import constructords and login the client
-const { Client, RichEmbed, Emoji, MessageReaction } = require('discord.js');
-const client = new Client({ disableEveryone: true });
-
 // If there isn't a reaction for every role, scold the user!
 if (roles.length !== reactions.length) throw "Roles list and reactions list are not the same length!";
 
